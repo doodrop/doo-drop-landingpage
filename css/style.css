@@ -1,0 +1,334 @@
+html{ 
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+ }
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+p {
+    font-size: 20px;
+    color:#4A4A4A;
+}
+
+
+img{
+    width:100%; 
+}
+
+.heading{
+   font-family: Nunito-Bold;
+    font-size: 36px;
+    color: #F47A33;
+    letter-spacing: 0.47px;
+}
+
+/****** Buttons *********/
+
+.buttonone{
+    padding: 20px 40px;
+    background: #FDC200;
+    border-radius: 6px;
+    font-family: Avenir-Heavy;
+    font-size: 22px;
+    color: #FFFFFF;
+    letter-spacing: 0.42px;
+}
+
+.buttonone:hover{
+    color:#ffffff;
+    text-decoration:none;
+    transition: all .2s ease-in-out;
+    background: #FFA300; 
+}
+
+.buttononelined{
+    color: #4A90E2;
+    border: 2px solid #4A90E2; 
+    padding: 12px 30px;
+    font-size: 18px;
+    letter-spacing: 0.28px;
+    border-radius: 35px;
+    line-height: 100px;
+}
+
+.buttononelined:hover{
+    color: #ffffff;
+    background:#4A90E2;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+.buttontwo{
+    padding: 12px 30px;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0.28px;
+    border: 2px solid #FFFFFF;
+    border-radius: 35px;
+}
+
+.buttontwo:hover{
+    background-color: #ffffff;
+    color:#1BB580;
+    transition: all .2s ease-in-out;
+    text-decoration: none;
+}
+
+/****** header *********/
+
+.header{
+    background: rgba(82,255,197,1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(82,255,197,1) 0%, rgba(27,182,128,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(82,255,197,1)), color-stop(100%, rgba(27,182,128,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(82,255,197,1) 0%, rgba(27,182,128,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(82,255,197,1) 0%, rgba(27,182,128,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(82,255,197,1) 0%, rgba(27,182,128,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(82,255,197,1) 0%, rgba(27,182,128,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52ffc5', endColorstr='#1bb680', GradientType=1 );
+}
+
+.menu{
+    padding-top: 50px;
+}
+
+.logo-container{
+    width: 300px; 
+}
+
+.logo{
+    width: 250px; 
+}
+
+.scroll{   
+    padding-top: 25px;
+}
+
+.emoticon{
+    width: 30px;
+}
+
+.leyend{
+    padding: 45px 28px 0px;
+}
+
+.dog-header{
+    max-width: 415px;
+    min-width: 200px;
+}
+
+
+ul li {
+    list-style-type:none;
+}
+
+.leyend h1{
+    font-size: 42px;
+    font-weight: 700;
+    color: #FFFFFF;
+    letter-spacing: 0.65px;
+    text-shadow: 0px 1px 4px rgba(0,0,0,0.17);
+}
+
+.leyend h3 {
+    font-size: 32px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 4px rgba(0,0,0,0.17);
+}
+
+.howwork{
+    position: relative;
+}
+
+.howwork h2{
+    font-size: 35px;
+    padding: 5px 45px 43px;
+    font-weight: 700;
+    color: #FFFFFF;
+    letter-spacing: 0.65px;
+    text-shadow: 0px 1px 4px rgba(0,0,0,0.17);
+}
+
+.paw{
+    position: absolute;
+    top:72px;
+    left: 0;
+    right: 0;
+}
+
+.paw img{
+    width: 86px
+}
+
+
+
+/****** features *********/
+
+.community{
+    border-bottom:1px solid #979797; 
+    padding: 80px 10px;
+    background-image: url('../img/bg-waves.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+}
+
+.community h2{
+    font-family: Nunito-Bold;
+    font-size: 36px;
+    color: #F47A33;
+    letter-spacing: 0.47px;
+}
+
+.community h3{
+    font-family: Nunito-Regular;
+    font-size: 24px;
+    color: #4A4A4A;
+    letter-spacing: 0.31px;
+}
+
+.community ul{
+    padding-top: 80px;
+    padding-bottom: 67px;
+}
+
+.community ul li {
+    font-size:20px;
+    padding: 30px 5px;
+}
+
+.bullet{
+    font-size: 20px;
+    left: 40px;
+    position: absolute;
+}
+
+.bu-one{
+    color:#FDC200; 
+}
+
+.bu-two{
+    color:#F47A33;
+}
+
+.bu-three{
+    color:#1BB580;
+}
+
+.recipients{
+    position: absolute;
+    top: 34px;
+} 
+
+/****** Track and bark as you go *********/
+
+.trackandbark{
+    border-bottom:1px solid #979797; 
+    padding: 80px 10px;
+    overflow: hidden;
+}
+
+.vertical-space{
+    padding-top: 185px;
+    padding-bottom: 185px;
+    margin: 22px 0px 22px 80px;
+}
+
+.hide-pic{
+    position: absolute;
+    top:20px;
+}
+
+/****** Howl to your herd *********/
+
+.howlherd{
+    border-bottom:1px solid #979797; 
+    padding: 80px 10px;
+    overflow: hidden;
+}
+
+/****** share the love *********/
+
+.sharelove{
+    border-bottom:1px solid #979797; 
+    padding: 80px 10px;
+    overflow: hidden;
+    background-color: #F2F2F2;
+}
+
+.sharelove img{
+    padding-top: 185px;
+}
+
+
+/****** Footer *********/
+
+
+
+#earlyaccess{
+    padding: 160px 20px;
+      background-image: url('../img/bg-pet.png');
+}
+
+#earlyaccess h1{
+    font-family: Nunito-Regular;
+    font-size: 43px;
+    color: #FFFFFF;
+}
+
+#earlyaccess h3{
+    font-family: Nunito-Light;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.cta{
+    padding: 60px 30px;
+}
+
+footer{
+    background-color: #F47A33;
+}
+.sub-footer{
+    color:#ffffff;
+    padding:20px;
+    text-align: center;
+}
+
+.sub-footer .social a{
+    color:#ffffff;
+    font-size: 20px;
+    padding:0 20px;
+}
+
+.sub-footer a{
+    color: #ffffff;
+}
+
+.sub-footer p{
+    font-size: 18px;
+    color:#ffffff;
+}
+
+.stores{
+    width: 210px;
+}
+
+
+/****** media queries *********/
+
+@media (min-width: 320px) and (max-width: 992px) {
+
+.hide-pic {
+    position:initial;
+    top: 20px;
+}
+
+.recipients {
+    position:initial;
+    top: 34px;
+}
+
+}
