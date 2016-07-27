@@ -18,10 +18,10 @@ img{
 }
 
 .heading{
-   font-family: Nunito-Bold;
     font-size: 36px;
     color: #F47A33;
     letter-spacing: 0.47px;
+    font-weight: 700;
 }
 
 /****** Buttons *********/
@@ -30,7 +30,6 @@ img{
     padding: 20px 40px;
     background: #FDC200;
     border-radius: 6px;
-    font-family: Avenir-Heavy;
     font-size: 22px;
     color: #FFFFFF;
     letter-spacing: 0.42px;
@@ -179,14 +178,13 @@ ul li {
 }
 
 .community h2{
-    font-family: Nunito-Bold;
     font-size: 36px;
     color: #F47A33;
     letter-spacing: 0.47px;
+    font-weight: 700;
 }
 
 .community h3{
-    font-family: Nunito-Regular;
     font-size: 24px;
     color: #4A4A4A;
     letter-spacing: 0.31px;
@@ -218,6 +216,10 @@ ul li {
 
 .bu-three{
     color:#1BB580;
+}
+
+.bu-four{
+    color:#4A90E2;
 }
 
 .recipients{
@@ -276,13 +278,12 @@ ul li {
 }
 
 #earlyaccess h1{
-    font-family: Nunito-Regular;
     font-size: 43px;
     color: #FFFFFF;
+    font-weight: 700;
 }
 
 #earlyaccess h3{
-    font-family: Nunito-Light;
     font-size: 24px;
     color: #FFFFFF;
 }
