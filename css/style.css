@@ -346,11 +346,11 @@ footer{
            padding: 45px 100px; 
         }
 
-        #mc_embed_signup{
+        .embed_signup{
            padding: 0px 65px ;  
         }
 
-        #mc_embed_signup p{
+        .embed_signup p{
             margin-bottom: 35px;
             font-size: 16px;
             color:#9e9e9e;
@@ -358,6 +358,10 @@ footer{
 
         .subscribe{
             padding: 25px 0;  
+        }
+
+        .hidden{
+            display: none;
         }
 
 /****** media queries *********/
