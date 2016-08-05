@@ -1,4 +1,4 @@
-html{ 
+html{
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
  }
@@ -14,7 +14,7 @@ p {
 
 
 img{
-    width:100%; 
+    width:100%;
 }
 
 .heading{
@@ -40,19 +40,19 @@ img{
     color:#ffffff;
     text-decoration:none;
     transition: all .2s ease-in-out;
-    background: #FFA300; 
+    background: #FFA300;
     border: none;
 }
 
 .buttononelined{
     color: #4A90E2;
-    border: 2px solid #4A90E2; 
+    border: 2px solid #4A90E2;
     padding: 12px 30px;
     font-size: 18px;
     letter-spacing: 0.28px;
     border-radius: 35px;
     line-height: 100px;
-    
+
 }
 
 .buttononelined:hover{
@@ -96,14 +96,14 @@ img{
 }
 
 .logo-container{
-    width: 300px; 
+    width: 300px;
 }
 
 .logo{
-    width: 250px; 
+    width: 250px;
 }
 
-.scroll{   
+.scroll{
     padding-top: 25px;
 }
 
@@ -168,13 +168,13 @@ ul li {
 /****** features *********/
 
 .community{
-    border-bottom:1px solid #979797; 
+    border-bottom:1px solid #979797;
     padding: 80px 10px;
     background-image: url('../img/bg-waves.png');
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
-    
+
 }
 
 .community h2{
@@ -207,7 +207,7 @@ ul li {
 }
 
 .bu-one{
-    color:#FDC200; 
+    color:#FDC200;
 }
 
 .bu-two{
@@ -225,12 +225,12 @@ ul li {
 .recipients{
     position: absolute;
     top: 34px;
-} 
+}
 
 /****** Track and bark as you go *********/
 
 .trackandbark{
-    border-bottom:1px solid #979797; 
+    border-bottom:1px solid #979797;
     padding: 80px 10px;
     overflow: hidden;
 }
@@ -249,7 +249,7 @@ ul li {
 /****** Howl to your herd *********/
 
 .howlherd{
-    border-bottom:1px solid #979797; 
+    border-bottom:1px solid #979797;
     padding: 80px 10px;
     overflow: hidden;
 }
@@ -257,7 +257,7 @@ ul li {
 /****** share the love *********/
 
 .sharelove{
-    border-bottom:1px solid #979797; 
+    border-bottom:1px solid #979797;
     padding: 80px 10px;
     overflow: hidden;
     background-color: #F2F2F2;
@@ -341,13 +341,13 @@ footer{
             color: #4A4A4A;
             margin: 12px 0px;
         }
-            
+
         .logo-v{
-           padding: 45px 100px; 
+           padding: 45px 100px;
         }
 
         .embed_signup{
-           padding: 0px 65px ;  
+           padding: 0px 65px ;
         }
 
         .embed_signup p{
@@ -357,11 +357,31 @@ footer{
         }
 
         .subscribe{
-            padding: 25px 0;  
+            padding: 25px 0;
         }
 
-        .hidden{
+        .hiding {
             display: none;
+        }
+
+        #success-message {
+          color: green;
+          margin-top: 20px;
+        }
+
+        #error-message {
+          color: red;
+          margin-top: 20px;
+        }
+
+        .loading-spinner {
+          text-align: center;
+        }
+
+        .loading-spinner > img {
+          width: 40px;
+          text-align: center;
+          margin-top: 20px;
         }
 
 /****** media queries *********/

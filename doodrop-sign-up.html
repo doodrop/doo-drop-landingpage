@@ -12,7 +12,7 @@
     <meta name="description" content="Doodrop helps you find the nearest Trash cans within your location in a cool and fun way. Community building for pet lovers, positive achievement app" />
 
     <title>Doo Drop / Pet lover app</title>
-    
+
 
     <!-- Bootstrap -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,7 +27,7 @@
         body{
             background-image: url('img/bg-pet.png');
             background-color: #F47A33;
-            
+
             width: 100%;
             height: 100%;
         }
@@ -54,7 +54,7 @@
 <body>
 
     <div class="wrapper">
-       
+
             <div class="container">
                 <div class="card">
                    <div class="row">
@@ -67,15 +67,15 @@
                         <div>
                              <h2 class="text-center">Sign Up for a Beta</h2>
                             <p class="text-center">We need great, pet-loving beta testers to try out our new app once it releases. Sign up below to receive an invitation to test the app!</p>
-                         </div>   
+                         </div>
                         <div class="field-group">
                             <label for="">Email Address</label>
-                            <input id="email" type="text" name="EMAIL" class="required email in-put">
+                            <input id="email" type="email" name="EMAIL" required="" class="required email in-put">
                         </div>
 
                         <div class="field-group">
                             <label for="">First Name </label>
-                            <input id="first-name" type="text" class="in-put">
+                            <input id="first-name" type="text" class="in-put" required="">
                         </div>
 
                         <div class="field-group">
@@ -83,24 +83,26 @@
                             <input id="last-name" type="text" class="in-put">
                         </div>
                         <div><small>We promise we will not spam you</small></div>
-                        
-                        <p id="error-message" class="hidden" >unexpected error please try again</p>
-                                       
-                        <p id="success-message" class="hidden">success, we have send you an email.</p>
-                        
+
+                        <div class="messages">
+                          <div id="loading-spinner" class="loading-spinner hiding"><img src="http://i.stack.imgur.com/MnyxU.gif" alt=""></div>
+                          <div id="error-message" class="hiding" >Unexpected error please try again</div>
+                          <div id="success-message" class="hiding">Success! We have sent you an email.</div>
+                        </div>
+
                         <div class="clear subscribe">
                         <input type="submit" value="Sign Up Now" name="subscribe" class="buttonone"></div>
- 
+
                     </form>
-                         
+
 
                     </div>
 
-                </div> 
+                </div>
 
                 </div>
             </div>
-     
+
     </div>
 
 
@@ -114,10 +116,3 @@
 <script src="js/mail.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
