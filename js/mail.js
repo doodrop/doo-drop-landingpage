@@ -7,7 +7,8 @@ $(document).ready(function() {
 		var model={
 			"email": $("#email").val(),
 			"firstName": $("#first-name").val(),
-			"lastName": $("#last-name").val()
+			"lastName": $("#last-name").val(),
+			"id": "57d75c53f36d282d835ca95e"
 		};
 
 		$.ajax({
